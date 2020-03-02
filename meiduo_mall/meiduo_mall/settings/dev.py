@@ -90,7 +90,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-            'environment': 'app.base_jinja2.environment'
+            'environment': 'meiduo_mall.utils.jinja2_env.jinja2_environment'
         },
     },
     {
