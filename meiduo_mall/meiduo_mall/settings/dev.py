@@ -224,3 +224,6 @@ LOGGING = {
         },
     }
 }
+
+# 防止跟提供的User类冲突，这里指定User是我们自己的User
+AUTH_USER_MODEL = 'users.User'
